@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>PoC | Frontend</title>
+        <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="login-box">
+            <img class="avatar" src="img/logo.png">
+            <h1>Login Here</h1>
+            <form>
+                <!-- USERNAME-->
+                <label for="username">Username: </label>
+                <input type="text" placeholder="Enter Username">
+                
+                <!-- PASSWORD-->
+                <label for="password">Password: </label>
+                <input type="password" placeholder="Enter Password">
+                
+                <input type="submit" value="Login" onclick="location='snapshot.html'">
+                
+                <a href="#">Lost your password?</a>
+                <br>
+                <a href="#">Do not have an account?</a>
+            </form>
+        </div>
+     
+        <script src="../lib/jquery/jquery-3.3.1.min.js"></script>
+        <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
